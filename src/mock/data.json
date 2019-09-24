@@ -1,0 +1,485 @@
+{
+  "classify": [
+    {
+      "id": 0,
+      "code": 1,
+      "title": "推荐专区",
+      "list": [{
+          "title": "明星商品",
+          "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+        }  
+      ],
+      "photos": ["https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196",
+        "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
+      ]
+    },
+    {
+      "id": 1,
+      "code": 1,
+      "title": "换季专区",
+      "list": [{
+          "title": "滋补美食",
+          "img": "https://yanxuan.nosdn.127.net/15a0f224de139e533a01d61dade82f5f.png?imageView&quality=85&thumbnail=144x144"
+        },
+        {
+          "title": "日用换新",
+          "img": "https://yanxuan.nosdn.127.net/15a0f224de139e533a01d61dade82f5f.png?imageView&quality=85&thumbnail=144x144"
+        }
+      ],
+      "photos": ["https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196",
+        "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
+      ]
+    },
+    {
+      "id": 2,
+      "code": 1,
+      "title": "爆品专区",
+      "list": [{
+          "title": "居家生活",
+          "img": "https://yanxuan.nosdn.127.net/4a7eaff4e3cb3b7e90a7e88ffc897f04.png?imageView&quality=85&thumbnail=144x144"
+        },
+        {
+          "title": "服饰鞋包",
+          "img": "https://yanxuan.nosdn.127.net/4a7eaff4e3cb3b7e90a7e88ffc897f04.png?imageView&quality=85&thumbnail=144x144"
+        },
+        {
+          "title": "美食酒水",
+          "img": "https://yanxuan.nosdn.127.net/4a7eaff4e3cb3b7e90a7e88ffc897f04.png?imageView&quality=85&thumbnail=144x144"
+        }
+      ],
+      "photos": ["https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196",
+        "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
+      ]
+    },
+    {
+      "id": 3,
+      "code": 1,
+      "title": "新品专区",
+      "list": [
+        {
+          "title": "居家生活新品",
+          "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+        },
+        {
+          "title": "服饰鞋包新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+        },
+        {
+          "title": "美食酒水新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+        },
+        {
+          "title": "个护清洁新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+        },
+        {
+          "title": "运动旅行新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+        },
+        {
+          "title": "母婴亲子新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+        },
+        {
+          "title": "数码家电新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+        },
+        {
+          "title": "全球特色",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+        }
+      ],
+      "photos": ["https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196",
+        "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
+      ]
+    },
+    {
+       "id": 4,
+       "code": 1,
+       "title": "新品专区",
+       "list": [{
+           "title": "居家生活新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "服饰鞋包新品",
+            "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "美食酒水新品",
+            "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "个护清洁新品",
+            "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "运动旅行新品",
+            "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "母婴亲子新品",
+            "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "数码家电新品",
+            "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "全球特色",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         }
+       ],
+       "photos": ["https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196",
+         "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
+       ]
+    },
+    {
+      "id": 5,
+      "code": 1,
+      "title": "新品专区",
+      "list": [{
+          "title": "居家生活新品",
+          "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+        },
+        {
+          "title": "服饰鞋包新品",
+          "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+        },
+        {
+          "title": "美食酒水新品",
+          "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+        },
+        {
+          "title": "个护清洁新品",
+          "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+        },
+        {
+          "title": "运动旅行新品",
+          "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+        },
+        {
+          "title": "母婴亲子新品",
+          "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+        },
+        {
+          "title": "数码家电新品",
+          "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+        },
+        {
+          "title": "全球特色",
+          "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+        }
+      ],
+      "photos": ["https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196",
+        "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
+      ]
+    },
+     {
+       "id": 6,
+       "code": 1,
+       "title": "新品专区",
+       "list": [{
+           "title": "居家生活新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "服饰鞋包新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "美食酒水新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "个护清洁新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "数码家电新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "运动旅行新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "母婴亲子新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "数码家电新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "全球特色",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         }
+       ],
+       "photos": ["https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196",
+         "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
+       ]
+     },
+     {
+       "id": 7,
+       "code": 1,
+       "title": "新品专区",
+       "list": [{
+           "title": "居家生活新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "运动旅行新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "母婴亲子新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "数码家电新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "全球特色",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         }
+       ],
+       "photos": ["https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196",
+         "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
+       ]
+     },
+     {
+       "id": 8,
+       "code": 1,
+       "title": "新品专区",
+       "list": [{
+           "title": "居家生活新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "服饰鞋包新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "美食酒水新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "母婴亲子新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "数码家电新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "全球特色",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         }
+       ],
+       "photos": ["https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196",
+         "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
+       ]
+     },
+     {
+       "id": 9,
+       "code": 1,
+       "title": "新品专区",
+       "list": [{
+           "title": "居家生活新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "数码家电新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "服饰鞋包新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "美食酒水新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "个护清洁新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "运动旅行新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "母婴亲子新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "数码家电新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "全球特色",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         }
+       ],
+       "photos": ["https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196",
+         "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
+       ]
+     },
+     {
+       "id": 10,
+       "code": 1,
+       "title": "新品专区",
+       "list": [{
+           "title": "居家生活新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "数码家电新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "数码家电新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "服饰鞋包新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "美食酒水新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "个护清洁新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "运动旅行新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "母婴亲子新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "数码家电新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "全球特色",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         }
+       ],
+       "photos": ["https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196",
+         "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
+       ]
+     },
+     {
+       "id": 11,
+       "code": 1,
+       "title": "新品专区",
+       "list": [{
+           "title": "居家生活新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "服饰鞋包新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "美食酒水新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "个护清洁新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "运动旅行新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "母婴亲子新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "数码家电新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "数码家电新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "数码家电新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "数码家电新品",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         },
+         {
+           "title": "全球特色",
+           "img": "https://yanxuan.nosdn.127.net/71a5f1a0299e278f8193c193d8b7d1e4.png?imageView&quality=85&thumbnail=144x144"
+         }
+       ],
+       "photos": ["https://yanxuan.nosdn.127.net/f7f216f5d01874f8f768ccfd78a7112e.jpg?imageView&quality=75&thumbnail=0x196",
+         "https://yanxuan.nosdn.127.net/40ee9e553e6a2c228b0544bff65a618d.jpg?imageView&quality=75&thumbnail=0x196"
+       ]
+     }
+  ],
+  "findnav":[
+    {
+      "id":0,
+      "title":"家庭装"
+    },
+    {
+      "id": 1,
+      "title": "推荐"
+    },
+    {
+      "id": 2,
+      "title": "居家生活"
+    },
+    {
+      "id": 3,
+      "title": "服饰箱包"
+    },
+    {
+      "id": 4,
+      "title": "推荐"
+    },
+    {
+      "id": 5,
+      "title": "美食酒水"
+    },
+    {
+      "id": 6,
+      "title": "推荐"
+    },
+    {
+      "id": 7,
+      "title": "全部频道"
+    },
+    {
+      "id": 8,
+      "title": "推荐"
+    },
+    {
+      "id": 9,
+      "title": "服饰箱包"
+    },
+    {
+      "id": 10,
+      "title": "休闲娱乐"
+    }
+  ],
+  "login":{
+        "name":"wow",
+       "phone": "15245988896",
+       "pwd":"135246"
+    }
+  
+}

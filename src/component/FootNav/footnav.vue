@@ -1,22 +1,22 @@
 <template>
   <div class="footnav">
-    <router-link class="icc" to='/' @click="goto('/')">
+    <router-link class="icc" to='/'>
       <span class="icon first" :class="{'on':this.$route.path==='/'}"></span>
       <span class="text" :class="{'onc':this.$route.path==='/'}">首页</span>
     </router-link>
-    <router-link class="icc" to='/sort' @click="goto('/sort')">
+    <router-link class="icc" to='/sort'>
       <span class="icon second" :class="{'on':this.$route.path==='/sort'}"></span>
       <span class="text" :class="{'onc':this.$route.path==='/sort'}">分类</span>
     </router-link>
-    <router-link class="icc" to='/good' @click="goto('/good')">
-      <span class="icon three" :class="{'on':this.$route.path==='/good'}"></span>
-      <span class="text" :class="{'onc':this.$route.path==='/good'}">识物</span>
+    <router-link class="icc" to='/good' >
+      <span class="icon three" :class="{'on':$route.path.indexOf('/good')!==-1}"></span>
+      <span class="text" :class="{'onc':$route.path.indexOf('/good')!==-1}">识物</span>
     </router-link>
-    <router-link class="icc" to='/car' @click="goto('/car')">
+    <router-link class="icc" to='/car'>
       <span class="icon four" :class="{'on':this.$route.path==='/car'}"></span>
       <span class="text" :class="{'onc':this.$route.path==='/car'}">购物车</span>
     </router-link>
-    <router-link class="icc" to='/person' @click="goto('/person')">
+    <router-link class="icc" to='/person'>
       <span class="icon five" :class="{'on':this.$route.path==='/person'}"></span>
       <span class="text" :class="{'onc':this.$route.path==='/person'}">个人</span>
     </router-link>

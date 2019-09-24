@@ -1,6 +1,6 @@
 <template>
   <div>
-
+    我是发现好货
   </div>
 </template>
 

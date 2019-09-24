@@ -28,8 +28,8 @@
                 </ul>
               </div>
               <!-- 三角 -->
-              <div class="icon" @click="showAllList">
-                  <i class="icon-bg"></i>
+              <div class="icon"  @click="showAllList">
+                  <i class="icon-bg" :class="{'tarm':!isShow}"></i>
               </div>
               <!-- 隐藏全部频道 -->
               <div class="AllShow" v-show="!isShow">
@@ -362,15 +362,15 @@ export default {
   },
   mounted(){
      this.$nextTick(()=>{
-     new Swiper ('.swiper-container', {
-       click:true,
-      loop: true,
-      // 如果需要滚动条  
-        pagination: {
-      el: '.swiper-pagination',
-      
-      },   
-      })     
+      new Swiper ('.swiper-container', {
+        click:true,
+        loop: true,
+        // 如果需要滚动条  
+          pagination: {
+        el: '.swiper-pagination',
+        
+        },   
+        })     
      })
     this.scroll = new BScroll('.header-list1',{
     scrollX: true,
@@ -499,6 +499,9 @@ html,body
               background-image url('../../public/images/list01.png')
               background-size cover
               background-color #fff
+              transition: transform .5s;
+              &.tarm
+                transform: rotate(180deg)
           .AllShow
             position relative
             z-index 99
@@ -632,6 +635,10 @@ html,body
         width (150/$rem)rem
         height (150/$rem)rem
 </style>
-<style>
-  
+<style lang='stylus' rel='stylesheet/stylus' >
+$rem=75
+.swiper-pagination-bullet
+  width (50/$rem)rem
+  height (8/$rem)rem
+  border-radius (4/$rem)rem
 </style>

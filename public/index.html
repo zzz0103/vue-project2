@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <link rel="stylesheet" href="./css/reset.css">  
+    <link rel="stylesheet" href="/css/reset.css">  
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1424640_foh6vwhi36k.css">
     <title>wangyi-project</title>
     <style>
     body{
@@ -16,9 +17,15 @@
   <body>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+     <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
     <script type="text/javascript">
+                   
       window.onload=function(){
-        
+         if ('addEventListener' in document) {
+         document.addEventListener('DOMContentLoaded', function () {
+         FastClick.attach(document.body);
+         }, false);
+         }
         function remRefresh(){
           let width=document.documentElement.clientWidth
           let htmlNode =document.querySelector('html')

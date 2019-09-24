@@ -4,33 +4,48 @@
       <form class="forms">
         <div class="searchcont">
           <img class="img1" src="../../public/images/topsearch.png" alt="">
-          <input type="text" placeholder="请输入搜索内容">
+          <input type="text" placeholder="请输入搜索内容" v-model='searchabout' @keydown="search">
           <img class="img2" src="../../public/images/chacha.png" alt="" v-show="false">
         </div>
       </form>
-      <span class="quexiao">取消</span>
+      <router-link class="quexiao" to="/" >取消</router-link>
     </div>
-    <div class="hotSearch">
+      <ul class="aboutlist" v-if="searchabout.length">
+         <li class="about" v-for="(about,index) in searchAbout" :key="index">{{about}}</li>
+      </ul>
+    <div class="hotSearch" v-else>
       <h3 class="hottitle">热门搜索</h3>
       <ul class="hot-list">
-        <li class="hotli"><a href="javascript:;">99%好评 懒人拖把</a></li>
-        <li class="hotli"><a href="javascript:;">电动牙刷69元起</a></li>
-        <li class="hotli"><a href="javascript:;">女式牛仔裤仅99.9</a></li>
-        <li class="hotli"><a href="javascript:;">按摩电器</a></li>
-        <li class="hotli"><a href="javascript:;">拖鞋</a></li>
-        <li class="hotli"><a href="javascript:;">扫地机 限时降400</a></li>
-        <li class="hotli"><a href="javascript:;">行李箱</a></li>
-        <li class="hotli"><a href="javascript:;">牛仔裤85折起</a></li>
-        <li class="hotli"><a href="javascript:;">扫地机 限时降400</a></li>
-        <li class="hotli"><a href="javascript:;">女式牛仔裤仅99.9</a></li>
-        <li class="hotli"><a href="javascript:;">按摩电器</a></li>
+        <li class="hotli" v-for="(hot,index) in hotSearch" :key="index"><a :href="hot.schemeUrl">{{hot.keyword}}</a></li>
       </ul>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+import {mapState} from 'vuex'
+export default {
+  computed:{
+    ...mapState(['searchAbout','hotSearch'])
+  },
+  data(){
+    return{
+      searchabout:'',
+    }
+  },
+  methods:{
+    search(){
+        const searchabout=this.searchabout.trim()
+        this.$store.dispatch('serAbout',searchabout)
+        //this.searchabout=''  
+              
+    } 
+  },
+    beforeMount(){
+        this.$store.dispatch('serHot')
+    }
+
+}
 </script>
 
 <style lang='stylus' rel='stylesheet/stylus'>
@@ -68,6 +83,16 @@ $rem=75
   .quexiao
     margin-left: (30/$rem)rem
     font-size: .37333rem; 
+.aboutlist
+  background-color #fff
+  width (720/$rem)rem
+  padding-left (30/$rem)rem
+  .about
+    width (720/$rem)rem
+    height (104/$rem)rem
+    font-size (30/$rem)$rem
+    line-height (104/$rem)rem
+    border-bottom 1px solid #ccc
 .hotSearch
   background-color #fff
   padding 0 (30/$rem)rem (30/$rem)rem (30/$rem)rem

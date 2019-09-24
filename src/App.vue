@@ -6,7 +6,9 @@
 </template>
 
 <script>
+// import axios from 'axios'
 import FootVav from './component/FootNav/footnav'
+
 export default {
   components:{
     FootVav
@@ -15,6 +17,9 @@ export default {
     return {
 
     }
+  },
+  mounted(){
+    this.$store.dispatch('findtj')
   }
  }
 </script>
